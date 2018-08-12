@@ -1,0 +1,12 @@
+package com.virtualcodemonkeys.heroesvillains;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HeroesVillainsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HeroesVillainsApplication.class, args);
+	}
+}
