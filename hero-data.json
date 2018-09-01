@@ -1,0 +1,45 @@
+[
+  {
+    "_id": "1",
+    "name": "Antman",
+    "height": 70.5,
+    "weight": 168,
+    "orientation": "HERO",
+    "association": ["The Good Guys"],
+    "friends": [
+      "Batman"
+    ],
+    "enemies": [],
+    "universe": "Marvel"
+  },
+  {
+    "_id": "2",
+    "name": "Batman",
+    "height": 74,
+    "weight": 205.5,
+    "orientation": "HERO",
+    "association": [
+      "The Good Guys"
+    ],
+    "friends": [
+      "Antman"
+    ],
+    "enemies": [
+      "Penguin"
+    ],
+    "universe": "D.C."
+  },
+  {
+    "_id": "3",
+    "name": "Penguin",
+    "height": 61,
+    "weight": 235,
+    "orientation": "VILLAIN",
+    "association": ["League of Really Bad Dudes"],
+    "friends": [],
+    "enemies": [
+      "Batman"
+    ],
+    "universe": "D.C."
+  }
+]
