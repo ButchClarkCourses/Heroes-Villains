@@ -1,0 +1,30 @@
+schema {
+ query: Queries
+}
+
+type Queries{
+    characters: [Character]
+    groups: [Group]
+}
+
+type Character{
+    name: String!
+    height: float
+    weight: float
+    orientation: Orientation
+    universe: String
+    friends: [String]
+    enemies: [String]
+    associations: [Group]
+}
+
+type Group{
+    name: String!
+    orientation: String
+    members: [Character]
+}
+
+enum Orientation{
+    HERO,
+    VILLAIN
+}
