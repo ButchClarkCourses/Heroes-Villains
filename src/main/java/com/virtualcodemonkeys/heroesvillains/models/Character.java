@@ -12,8 +12,9 @@ public class Character {
     private float height;
     private float weight;
     private Orientation orientation;
-    private List<Group> association;
     private List<String> friends;
     private List<String> enemies;
     private String universe;
+
+    private List<Group> associations;
 }

@@ -5,7 +5,7 @@
     "height": 70.5,
     "weight": 168,
     "orientation": "HERO",
-    "association": ["The Good Guys"],
+    "associations": ["The Good Guys"],
     "friends": [
       "Batman"
     ],
@@ -18,7 +18,7 @@
     "height": 74,
     "weight": 205.5,
     "orientation": "HERO",
-    "association": [
+    "associations": [
       "The Good Guys"
     ],
     "friends": [
@@ -35,7 +35,7 @@
     "height": 61,
     "weight": 235,
     "orientation": "VILLAIN",
-    "association": ["League of Really Bad Dudes"],
+    "associations": ["League of Really Bad Dudes"],
     "friends": [],
     "enemies": [
       "Batman"

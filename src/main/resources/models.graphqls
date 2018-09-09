@@ -9,8 +9,8 @@ type Queries{
 
 type Character{
     name: String!
-    height: float
-    weight: float
+    height: Float
+    weight: Float
     orientation: Orientation
     universe: String
     friends: [String]
