@@ -1,11 +1,36 @@
 [
   {
+    "_id": "1",
+    "name": "Antman",
+    "height": 73,
+    "weight": 175,
+    "orientation": "HERO",
+    "groupIds": ["2"],
+    "friendIds": [
+      "2"
+    ],
+    "enemyIds": [],
+    "universe": "Marvel"
+  }, {
+  "_id": "2",
+  "name": "Batman",
+  "height": 76,
+  "weight": 225,
+  "orientation": "HERO",
+  "groupIds": ["2"],
+  "friendIds": [
+    "1"
+  ],
+  "enemyIds": ["3"],
+  "universe": "D.C."
+},
+  {
     "_id": "100",
     "name": "Thor",
     "height": 76,
     "weight": 248,
     "orientation": "HERO",
-    "groupIds": ["The Good Guys"],
+    "groupIds": ["2"],
     "friendIds": [
       ""
     ],
@@ -69,7 +94,7 @@
     "height": 61,
     "weight": 235,
     "orientation": "VILLAIN",
-    "groupIds": [""],
+    "groupIds": ["1"],
     "friendIds": [],
     "enemyIds": [
       "2"
