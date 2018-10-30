@@ -5,11 +5,10 @@
     "orientation": "Evil",
     "members": [ "Penguin" ]
   }
-,
-  {
-    "_id": "2",
-    "name": "The Good Guys",
-    "orientation": "Good",
-    "members": [ "Batman", "Antman" ]
-  }
+,{
+  "_id": "2",
+  "name": "The Good Guys",
+  "orientation": "Good",
+  "members": [ "2", "1","100" ]
+}
 ]

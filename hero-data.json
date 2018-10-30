@@ -1,33 +1,67 @@
 [
   {
-    "_id": "1",
-    "name": "Antman",
-    "height": 70.5,
-    "weight": 168,
+    "_id": "100",
+    "name": "Thor",
+    "height": 76,
+    "weight": 248,
     "orientation": "HERO",
-    "association": ["The Good Guys"],
-    "friends": [
-      "Batman"
+    "groupIds": ["The Good Guys"],
+    "friendIds": [
+      ""
     ],
-    "enemies": [],
+    "enemyIds": [],
     "universe": "Marvel"
   },
   {
-    "_id": "2",
-    "name": "Batman",
-    "height": 74,
-    "weight": 205.5,
+    "_id": "110",
+    "name": "Nova",
+    "height": 72,
+    "weight": 185,
     "orientation": "HERO",
-    "association": [
-      "The Good Guys"
+    "groupIds": [
+      ""
     ],
-    "friends": [
-      "Antman"
+    "friendIds": [
+      ""
     ],
-    "enemies": [
-      "Penguin"
+    "enemyIds": [
+      ""
     ],
-    "universe": "D.C."
+    "universe": "Marvel"
+  },
+  {
+    "_id": "120",
+    "name": "Rick Sanchez",
+    "height": 70,
+    "weight": 165,
+    "orientation": "HERO",
+    "groupIds": [
+      ""
+    ],
+    "friendIds": [
+      "125"
+    ],
+    "enemyIds": [
+      ""
+    ],
+    "universe": "Adult Swim"
+  },
+  {
+    "_id": "125",
+    "name": "Morty Smith",
+    "height": 61,
+    "weight": 115,
+    "orientation": "HERO",
+    "groupIds": [
+      ""
+    ],
+    "friendIds": [
+      "120"
+    ],
+    "enemyIds": [
+      ""
+    ],
+    "universe": "Adult Swim"
   },
   {
     "_id": "3",
@@ -35,10 +69,10 @@
     "height": 61,
     "weight": 235,
     "orientation": "VILLAIN",
-    "association": ["League of Really Bad Dudes"],
-    "friends": [],
-    "enemies": [
-      "Batman"
+    "groupIds": [""],
+    "friendIds": [],
+    "enemyIds": [
+      "2"
     ],
     "universe": "D.C."
   }
